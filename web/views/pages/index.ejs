@@ -108,7 +108,7 @@ co2Sub = function(str) {
                       </span>
                     </div>
 
-                    <div class="right-header">
+                    <div class="right-header" style="display: none">
                         <span>
                             <%- __('misc.lastupdate') %> <span class="current-datetime-from-now"></span>
                         </span>
@@ -153,7 +153,7 @@ co2Sub = function(str) {
                     Please contact us at <a href="mailto:hello@tmrow.com">hello@tmrow.com</a> for more information.
                 </div>
 
-                <div class="panel left-panel">
+                <div class="panel left-panel" style="display: none">
 
                     <div class="left-panel-info">
                         <div class="left-panel-initial-text">
@@ -357,8 +357,11 @@ co2Sub = function(str) {
                             data-show-count="false"
                             data-lang="<%= locale %>"></a>
                     </div>
-                    <div class="highscore-button">
+                    <div class="highscore-button" style="display: none">
                         <%- __('rankings-panel.show-ranking') %>
+                    </div>
+                    <div id="time">
+                        
                     </div>
                     <div class="co2-floating-legend">
                         <div><%- co2Sub(__('legends.carbonintensity'))%> <small>(gCO<sub>2</sub>eq/kWh)</small></div>

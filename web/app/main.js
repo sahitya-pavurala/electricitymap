@@ -909,7 +909,7 @@ function renderMap() {
             countryMap.center(geolocation);
         }
         else {
-            countryMap.center([0, 50]);
+            countryMap.center([5, 55]);
         }
     }
     exchangeLayer
@@ -1011,6 +1011,7 @@ function dataLoaded(err, clientVersion, state, argSolar, argWind) {
         .transition()
             .duration(800)
             .style('color', undefined);
+    d3.select('#time').html(currentMoment.format('LL LT'))
 
     // Reset all data
     d3.entries(countries).forEach(function(entry) {

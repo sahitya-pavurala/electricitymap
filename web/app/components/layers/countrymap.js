@@ -8,7 +8,7 @@ function CountryMap(selector, wind, windCanvasSelector, solar, solarCanvasSelect
     this.selectedCountry = undefined;
 
     this._center = undefined;
-    this.startScale = 400;
+    this.startScale = 700;
 
     this.getCo2Color = function (d) {
         return (d.co2intensity !== undefined) ? that.co2color()(d.co2intensity) : 'gray';
