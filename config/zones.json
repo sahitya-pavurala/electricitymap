@@ -1007,7 +1007,7 @@
     "timezone": null
   },
   "HR": {
-    "timezone": "Europe/Belgrade"
+    "timezone": null
   },
   "HU": {
     "capacity": {
@@ -1135,7 +1135,7 @@
       "consumption": "IN_GJ.fetch_consumption",
       "production": "IN_GJ.fetch_production"
     },
-    "timezone": "Asia/Kolkata"
+    "timezone": null
   },
   "IS": {
     "capacity": {
@@ -1533,7 +1533,6 @@
     "timezone": "Europe/Belgrade"
   },
   "RU": {
-    "flag_file_name": "ru.png",
     "capacity": {
       "biomass": 0,
       "coal": 44868,
@@ -1544,14 +1543,7 @@
       "solar": 75,
       "wind": 10
     },
-    "contributors": [
-      "https://github.com/denplis",
-      "https://github.com/systemcatch",
-      "https://github.com/alixunderplatz"
-    ],
-    "parsers": {"production": "RU.fetch_production"
-    },
-    "timezone": "Europe/Moscow"
+    "timezone": null
   },
   "RU-KGD": {
     "flag_file_name": "ru.png",
